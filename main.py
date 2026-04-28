@@ -32,9 +32,8 @@ def main():
         print("2. View expenses")
         print("3. View total spending")
         print("4. Exit")
-        print("5. Exit")
 
-       choice = input("Choose an option: ")
+        choice = input("Choose an option: ")
 
         if choice == "1":
             add_expense()
