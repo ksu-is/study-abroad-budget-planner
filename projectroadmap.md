@@ -32,3 +32,8 @@ This project is a Python-based travel application that allows users to explore a
 - Begin outlining my own program structure
 - Start building basic features like expense tracking
 
+## Sprint 2 Progress
+
+During Sprint 2, I started coding the main application. I created a basic command-line interface that allows users to add expenses, view saved expenses, and calculate total spending. These features are the foundation for the budgeting portion of the project.
+
+Next, I plan to add savings goal tracking and trip planning features.
