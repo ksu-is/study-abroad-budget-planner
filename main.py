@@ -5,7 +5,14 @@ expenses = []
 
 def add_expense():
     name = input("Enter expense name: ")
-    amount = float(input("Enter expense amount: $"))
+
+    while True:
+        try:
+            amount = float(input("Enter expense amount: $"))
+            break
+        except ValueError:
+            print("Please enter a valid number.")
+
     category = input("Enter category: ")
 
     expense = {
